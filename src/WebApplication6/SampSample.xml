@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<samlp:Response Version="2.0" ID="XY1VwbhJxQTQAiRIYOT625a_c-U"
+                IssueInstant="2016-06-27T14:55:32.482Z"
+                Destination="https://performancemanager8.successfactors.com/saml2/SAMLAssertionConsumer?company=RBC"
+                xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+  <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">RBCSSO2.0</saml:Issuer>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#XY1VwbhJxQTQAiRIYOT625a_c-U">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>pMGEoQ9rs6MuI2mu2Bxf+LWhib//pWg7qi1CbVb/Uus=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>
+      eiRBeKtCT6hkYYwHGjnLQgCqZDcNbWssbjRvATWErDlxds853uJwCV6rTRGG+rI311gSqNuaRuob
+      tS5h/DkIgruCdnudtHGmGmHJl4bQExPCgiaNnTW5G41u8HweKr4KRiYmdHUTYGgq84D4EQLtjkAH
+      t/2N4Nez3173qUNNBXbxQUyOwJtIvuJgTA8croTNBBkILANorQMjBYsfFJCudQ66n+xP3Qn89bxq
+      VkzEvI+y+jDQaLVg1dVLeMGEd5bIaZgpfMBHor4xJ+EWDR1FeHFPmrpf+dIf3lwQZxbxv4k2aKIc
+      yxDBBK5MbqnUHbU6UP14ozkVzPEvY8sivIe6bw==
+    </ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>
+          MIIFCzCCA/OgAwIBAgIQbbw9BkJYhhCRoLWu51A9nzANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQG
+          EwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy
+          dXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAt
+          IEc0MB4XDTE1MDUyMTAwMDAwMFoXDTE4MDUyMTIzNTk1OVowgYoxCzAJBgNVBAYTAkNBMRAwDgYD
+          VQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMR0wGwYDVQQKDBRSb3lhbCBCYW5rIG9mIENh
+          bmFkYTEQMA4GA1UECwwHSW5mb1NlYzEmMCQGA1UEAwwdRGlnaXRhbFNpZ25pbmdmb3JTQU1MLlJC
+          Qy5DT00wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmGSPDLGlXVvefrEUbz2atmmkZ
+          HHRXrarxCrxdlhTLXl7qC0baLR+Zj+Th23b12CIuBdrlYgBNSceiQX8uK5dS5iqUg2RLotLzVqmS
+          xr54V4MJFmz4ji/QP+NZ4UIPv/UBHZe3Db+HOrhx08GxzA2OgWX99oySy/0gVP/CzGO5bc5a/c7O
+          fzwPvcwVtrUcynMLChaOvxrHqd6U8IDxlg5wBR0vi7L4JQ7V9gVUUpW3htu1Wbtgn/SalcVzqyeW
+          7LSxh3NMmm8d9razaqsmCXNuiuubZ5zGZkqqvXlDM2Q5iAERw86/6V1eP9uJutDsfWyLpC5abxs/
+          wffrh8MaDqvTAgMBAAGjggF2MIIBcjAoBgNVHREEITAfgh1EaWdpdGFsU2lnbmluZ2ZvclNBTUwu
+          UkJDLkNPTTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYI
+          KwYBBQUHAwIwZQYDVR0gBF4wXDBaBgpghkgBhvhFAQc2MEwwIwYIKwYBBQUHAgEWF2h0dHBzOi8v
+          ZC5zeW1jYi5jb20vY3BzMCUGCCsGAQUFBwICMBkaF2h0dHBzOi8vZC5zeW1jYi5jb20vcnBhMB8G
+          A1UdIwQYMBaAFF9gz2GQVd+EQxSKYCqy9Xr0QxjvMCsGA1UdHwQkMCIwIKAeoByGGmh0dHA6Ly9z
+          cy5zeW1jYi5jb20vc3MuY3JsMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYTaHR0cDovL3Nz
+          LnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5jcnQwDQYJKoZI
+          hvcNAQELBQADggEBAI53J3DX2wunF+nasNRoa4glk7JemD9Tb0dUOdBQBY254VnQK/uU9PQwyXZK
+          4FcedbYr+PFc5rMBHU6FS1noLoOo3jqyuPCtEQgB/HB0B2B519ZdILp2OrLBafH1yctRaxurkDUL
+          1c8T9MPr726g3v5Hp17d/3XUpYCWtYqnQ6u878t/SY1nhHa181aAlCqVS8ZKxaoDBbfAlOgCT9mx
+          W+Jsyu4K+TTwbcQy/LwKGsVqIHMwYny+x/z2t24JnQuiUzCJe5dMytbBzgw32SpZTZNF2+vpUnWj
+          7AfILc5OLgx3sBt9uD2h86jRYtyWFrP5EqVdtG5QUUiMPKBg1fJOHZ4=
+        </ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <samlp:Status>
+    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </samlp:Status>
+  <saml:Assertion ID="LgrvVqs.7bu7GlE9825uldYNdQe" IssueInstant="2016-06-27T14:55:32.505Z" Version="2.0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+    <saml:Issuer>RBCSSO2.0</saml:Issuer>
+    <saml:Subject>
+      <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">843686262</saml:NameID>
+      <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <saml:SubjectConfirmationData Recipient="https://performancemanager8.successfactors.com/saml2/SAMLAssertionConsumer?company=RBC" NotOnOrAfter="2016-06-27T15:00:32.505Z"/>
+      </saml:SubjectConfirmation>
+    </saml:Subject>
+    <saml:Conditions NotBefore="2016-06-27T14:50:32.505Z" NotOnOrAfter="2016-06-27T15:00:32.505Z">
+      <saml:AudienceRestriction>
+        <saml:Audience>https://www.successfactors.com</saml:Audience>
+      </saml:AudienceRestriction>
+    </saml:Conditions>
+    <saml:AuthnStatement SessionIndex="LgrvVqs.7bu7GlE9825uldYNdQe" AuthnInstant="2016-06-27T14:55:32.505Z">
+      <saml:AuthnContext>
+        <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+      </saml:AuthnContext>
+    </saml:AuthnStatement>
+  </saml:Assertion>
+</samlp:Response>

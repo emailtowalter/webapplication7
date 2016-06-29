@@ -1,0 +1,9 @@
+﻿applications:
+- path: .
+  memory: 1G
+  instances: 1
+  domain: bm.devfg.rbc.com
+  name: Ninja6
+  host: Ninja6
+  disk_quota: 1024M
+  buildpack: https://github.com/cloudfoundry-community/dotnet-core-buildpack.git

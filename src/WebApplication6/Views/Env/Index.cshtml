@@ -1,0 +1,48 @@
+﻿@*
+   
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{ 
+    Layout = null;
+}
+@using System.Collections
+<ul>
+    <b>Header</b>:
+    @foreach (var item in Context.Request.Headers)
+    {
+        <li>@item.Key: @item.Value</li>
+
+    }
+    Others:
+    <li>IsHttps:@Context.Request.IsHttps</li>
+    <li>path:@Context.Request.Path</li>
+    <li>pathbase:@Context.Request.PathBase</li>
+    <li>protocol:@Context.Request.Protocol</li>
+    <li>scheme:@Context.Request.Scheme</li>
+    <li>querystring:@Context.Request.QueryString</li>
+    <li>host:@Context.Request.Host</li>
+    <li>method: @Context.Request.Method</li>
+
+    Env:
+    <li>CurrentManagedThreadId:@Environment.CurrentManagedThreadId</li>
+    <li>HasShutdownStarted:@Environment.HasShutdownStarted</li>
+    <li>MachineName:@Environment.MachineName</li>
+    <li>NewLine:@Environment.NewLine</li>
+    <li>ProcessorCount:@Environment.ProcessorCount</li>
+    <li>TickCount:@Environment.TickCount</li>
+
+
+    Env.Commandline
+    @foreach (string str in Environment.GetCommandLineArgs())
+    {
+        <li>commandline arg: @str</li>
+    }
+
+    Env.EnvironmentVaribles
+    @foreach (DictionaryEntry item in Environment.GetEnvironmentVariables())
+    {
+        <li>@item.Key:@item.Value </li>
+    }
+</ul>
+
+        end
