@@ -1,0 +1,331 @@
+2016-06-30T17:30:39.211-04:00 [API] [OUT] Created app with guid 36e355b3-a6fe-4d69-9403-95865da5c54d
+2016-06-30T17:30:40.066-04:00 [API] [OUT] Updated app with guid 36e355b3-a6fe-4d69-9403-95865da5c54d ({"route"=>"11cfa21d-abe7-40c4-9a04-a6721884142b"})
+2016-06-30T17:31:10.768-04:00 [API] [OUT] Updated app with guid 36e355b3-a6fe-4d69-9403-95865da5c54d ({"state"=>"STARTED"})
+2016-06-30T17:31:11.132-04:00 [STG] [OUT] Creating container
+2016-06-30T17:31:11.536-04:00 [STG] [OUT] Successfully created container
+2016-06-30T17:31:11.537-04:00 [STG] [OUT] Downloading app package...
+2016-06-30T17:31:12.247-04:00 [STG] [OUT] Staging...
+2016-06-30T17:31:12.247-04:00 [STG] [OUT] Downloaded app package (2.7M)
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] OK
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] -----> Extracting libunwind
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] ASP.NET Core buildpack version: 0.9.0
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] libunwind version: 1.1
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] -----> Restoring files from buildpack cache
+2016-06-30T17:31:13.263-04:00 [STG] [OUT] ASP.NET Core buildpack starting compile
+2016-06-30T17:31:13.513-04:00 [STG] [OUT] https://github.com/cloudfoundry-community/dotnet-core-buildpack/releases/download/v0.7/libunwind-cflinuxfs2-1.1.tar.gz
+2016-06-30T17:31:13.547-04:00 [STG] [OUT] OK
+2016-06-30T17:31:13.548-04:00 [STG] [OUT] dotnet version: 1.0.0-preview1-002702
+2016-06-30T17:31:13.548-04:00 [STG] [OUT] -----> Installing Dotnet CLI
+2016-06-30T17:31:16.276-04:00 [STG] [OUT] https://go.microsoft.com/fwlink/?LinkID=798405
+2016-06-30T17:31:17.093-04:00 [STG] [OUT] -----> Restoring dependencies with Dotnet CLI
+2016-06-30T17:31:17.093-04:00 [STG] [OUT] OK
+2016-06-30T17:31:18.215-04:00 [STG] [OUT] log : Restoring packages for /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:21.278-04:00 [STG] [OUT] log : Installing Microsoft.Composition 1.0.27.
+2016-06-30T17:31:21.298-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.Workspaces.Common 1.3.0-beta1-20160429-01.
+2016-06-30T17:31:21.299-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.CSharp.Workspaces 1.3.0-beta1-20160429-01.
+2016-06-30T17:31:21.299-04:00 [STG] [OUT] log : Installing NuGet.Configuration 3.5.0-beta-final.
+2016-06-30T17:31:21.300-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration.Utils 1.0.0-preview1-final.
+2016-06-30T17:31:21.312-04:00 [STG] [OUT] log : Installing NuGet.Protocol.Core.Types 3.5.0-beta-final.
+2016-06-30T17:31:21.312-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration.Templating 1.0.0-preview1-final.
+2016-06-30T17:31:21.313-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Routing.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:21.324-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Windows.ApiSets 1.0.1-rc2-24027.
+2016-06-30T17:31:21.324-04:00 [STG] [OUT] log : Installing System.Xml.XPath 4.0.1-rc2-24027.
+2016-06-30T17:31:21.331-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.X509Certificates 4.1.0.
+2016-06-30T17:31:21.331-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.UserSecrets 1.0.0-rc2-final.
+2016-06-30T17:31:21.332-04:00 [STG] [OUT] log : Installing System.Diagnostics.Tools 4.0.1-rc2-24027.
+2016-06-30T17:31:21.336-04:00 [STG] [OUT] log : Installing System.Net.NameResolution 4.0.0-rc2-24027.
+2016-06-30T17:31:21.337-04:00 [STG] [OUT] log : Installing System.ServiceModel.Duplex 4.0.1-rc2-24027.
+2016-06-30T17:31:21.339-04:00 [STG] [OUT] log : Installing System.Security.Principal.Windows 4.0.0-rc2-24027.
+2016-06-30T17:31:21.343-04:00 [STG] [OUT] log : Installing Newtonsoft.Json 6.0.4.
+2016-06-30T17:31:21.344-04:00 [STG] [OUT] log : Installing NuGet.Protocol.Core.v3 3.5.0-beta-final.
+2016-06-30T17:31:21.345-04:00 [STG] [OUT] log : Installing NuGet.Repositories 3.5.0-beta-final.
+2016-06-30T17:31:21.346-04:00 [STG] [OUT] log : Installing NuGet.LibraryModel 3.5.0-beta-final.
+2016-06-30T17:31:21.354-04:00 [STG] [OUT] log : Installing Microsoft.DotNet.InternalAbstractions 1.0.0-rc2-002702.
+2016-06-30T17:31:21.355-04:00 [STG] [OUT] log : Installing System.Net.Security 4.0.0-rc2-24027.
+2016-06-30T17:31:21.380-04:00 [STG] [OUT] log : Installing System.ServiceModel.Http 4.1.0-rc2-24027.
+2016-06-30T17:31:21.381-04:00 [STG] [OUT] log : Installing NuGet.Packaging.Core.Types 3.5.0-beta-final.
+2016-06-30T17:31:21.385-04:00 [STG] [OUT] log : Installing System.Runtime.Serialization.Primitives 4.1.1-rc2-24027.
+2016-06-30T17:31:21.385-04:00 [STG] [OUT] log : Installing System.ServiceModel.Security 4.0.1-rc2-24027.
+2016-06-30T17:31:21.392-04:00 [STG] [OUT] log : Installing System.Runtime.Serialization.Xml 4.1.1-rc2-24027.
+2016-06-30T17:31:21.394-04:00 [STG] [OUT] log : Installing System.ServiceModel.NetTcp 4.1.0-rc2-24027.
+2016-06-30T17:31:21.403-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration.Core 1.0.0-preview1-final.
+2016-06-30T17:31:21.407-04:00 [STG] [OUT] log : Installing System.ServiceModel.Primitives 4.1.0-rc2-24027.
+2016-06-30T17:31:21.426-04:00 [STG] [OUT] log : Installing System.Private.ServiceModel 4.1.0-rc2-24027.
+2016-06-30T17:31:21.446-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:21.448-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Server.Kestrel 1.0.0-rc2-final.
+2016-06-30T17:31:21.456-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Logging 1.0.0-rc2-final.
+2016-06-30T17:31:21.466-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Logging.Debug 1.0.0-rc2-final.
+2016-06-30T17:31:21.468-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.CommandLine 1.0.0-rc2-final.
+2016-06-30T17:31:21.488-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.Json 1.0.0-rc2-final.
+2016-06-30T17:31:21.491-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.EnvironmentVariables 1.0.0-rc2-final.
+2016-06-30T17:31:21.495-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Logging.Console 1.0.0-rc2-final.
+2016-06-30T17:31:21.499-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.BrowserLink.Loader 14.0.0-rc2-final.
+2016-06-30T17:31:21.503-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Diagnostics 1.0.0-rc2-final.
+2016-06-30T17:31:21.504-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.StaticFiles 1.0.0-rc2-final.
+2016-06-30T17:31:21.512-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Server.IISIntegration 1.0.0-rc2-final.
+2016-06-30T17:31:21.514-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Authentication.Cookies 1.0.0-rc2-final.
+2016-06-30T17:31:21.516-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Razor.Tools 1.0.0-preview1-final.
+2016-06-30T17:31:21.519-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 1.0.0-rc2-final.
+2016-06-30T17:31:21.521-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Identity.EntityFrameworkCore 1.0.0-rc2-final.
+2016-06-30T17:31:21.522-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.SqlServer 1.0.0-rc2-final.
+2016-06-30T17:31:21.522-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.Tools 1.0.0-preview1-final.
+2016-06-30T17:31:21.528-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc 1.0.0-rc2-final.
+2016-06-30T17:31:21.528-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.App 1.0.0-rc2-3002702.
+2016-06-30T17:31:21.530-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration.Tools 1.0.0-preview1-final.
+2016-06-30T17:31:21.531-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGenerators.Mvc 1.0.0-preview1-final.
+2016-06-30T17:31:21.534-04:00 [STG] [OUT] log : Installing System.Runtime.Handles 4.0.1.
+2016-06-30T17:31:21.535-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Encoding 4.0.0.
+2016-06-30T17:31:21.535-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Algorithms 4.2.0.
+2016-06-30T17:31:21.549-04:00 [STG] [OUT] log : Installing System.Runtime 4.1.0.
+2016-06-30T17:31:21.559-04:00 [STG] [OUT] log : Installing System.Runtime 4.1.0-rc2-24027.
+2016-06-30T17:31:21.564-04:00 [STG] [OUT] log : Installing System.Runtime.Handles 4.0.1-rc2-24027.
+2016-06-30T17:31:21.571-04:00 [STG] [OUT] log : Installing System.Threading 4.0.11-rc2-24027.
+2016-06-30T17:31:21.577-04:00 [STG] [OUT] log : Installing System.Globalization 4.0.11-rc2-24027.
+2016-06-30T17:31:21.653-04:00 [STG] [OUT] log : Installing System.Collections 4.0.11-rc2-24027.
+2016-06-30T17:31:21.666-04:00 [STG] [OUT] log : Installing System.Diagnostics.Tracing 4.1.0-rc2-24027.
+2016-06-30T17:31:21.721-04:00 [STG] [OUT] log : Installing System.Net.Primitives 4.0.11-rc2-24027.
+2016-06-30T17:31:21.723-04:00 [STG] [OUT] log : Installing System.Runtime.Extensions 4.1.0-rc2-24027.
+2016-06-30T17:31:21.782-04:00 [STG] [OUT] log : Installing System.Resources.ResourceManager 4.0.1-rc2-24027.
+2016-06-30T17:31:21.807-04:00 [STG] [OUT] log : Installing System.Threading.Tasks 4.0.11-rc2-24027.
+2016-06-30T17:31:21.814-04:00 [STG] [OUT] log : Installing System.Runtime.InteropServices 4.1.0-rc2-24027.
+2016-06-30T17:31:21.878-04:00 [STG] [OUT] log : Installing System.Diagnostics.Debug 4.0.11-rc2-24027.
+2016-06-30T17:31:21.910-04:00 [STG] [OUT] log : Installing Microsoft.Win32.Primitives 4.0.1-rc2-24027.
+2016-06-30T17:31:21.925-04:00 [STG] [OUT] log : Installing System.Text.Encoding 4.0.11-rc2-24027.
+2016-06-30T17:31:21.962-04:00 [STG] [OUT] log : Installing System.Security.Principal 4.0.1-rc2-24027.
+2016-06-30T17:31:21.979-04:00 [STG] [OUT] log : Installing System.Security.Claims 4.0.1-rc2-24027.
+2016-06-30T17:31:21.988-04:00 [STG] [OUT] log : Installing System.Reflection 4.1.0-rc2-24027.
+2016-06-30T17:31:21.997-04:00 [STG] [OUT] log : Installing System.Threading.ThreadPool 4.0.10-rc2-24027.
+2016-06-30T17:31:22.008-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Algorithms 4.1.0-rc2-24027.
+2016-06-30T17:31:22.019-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Primitives 4.0.0-rc2-24027.
+2016-06-30T17:31:22.026-04:00 [STG] [OUT] log : Installing System.Globalization.Extensions 4.0.1-rc2-24027.
+2016-06-30T17:31:22.028-04:00 [STG] [OUT] log : Installing runtime.native.System.Net.Security 4.0.1-rc2-24027.
+2016-06-30T17:31:22.031-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.OpenSsl 4.0.0-rc2-24027.
+2016-06-30T17:31:22.039-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Encoding 4.0.0-rc2-24027.
+2016-06-30T17:31:22.039-04:00 [STG] [OUT] log : Installing System.IO 4.1.0-rc2-24027.
+2016-06-30T17:31:22.048-04:00 [STG] [OUT] log : Installing System.Collections.Concurrent 4.0.12-rc2-24027.
+2016-06-30T17:31:22.053-04:00 [STG] [OUT] log : Installing System.Net.WebHeaderCollection 4.0.1-rc2-24027.
+2016-06-30T17:31:22.063-04:00 [STG] [OUT] log : Installing System.Private.DataContractSerialization 4.1.1-rc2-24027.
+2016-06-30T17:31:22.075-04:00 [STG] [OUT] log : Installing System.Xml.ReaderWriter 4.0.11-rc2-24027.
+2016-06-30T17:31:22.081-04:00 [STG] [OUT] log : Installing System.ObjectModel 4.0.12-rc2-24027.
+2016-06-30T17:31:22.101-04:00 [STG] [OUT] log : Installing System.ComponentModel.EventBasedAsync 4.0.11-rc2-24027.
+2016-06-30T17:31:22.112-04:00 [STG] [OUT] log : Installing System.Collections.NonGeneric 4.0.1-rc2-24027.
+2016-06-30T17:31:22.116-04:00 [STG] [OUT] log : Installing System.Linq 4.1.0-rc2-24027.
+2016-06-30T17:31:22.141-04:00 [STG] [OUT] log : Installing System.Linq.Queryable 4.0.1-rc2-24027.
+2016-06-30T17:31:22.141-04:00 [STG] [OUT] log : Installing System.Net.Sockets 4.1.0-rc2-24027.
+2016-06-30T17:31:22.160-04:00 [STG] [OUT] log : Installing System.Reflection.DispatchProxy 4.0.1-rc2-24027.
+2016-06-30T17:31:22.165-04:00 [STG] [OUT] log : Installing System.Reflection.Extensions 4.0.1-rc2-24027.
+2016-06-30T17:31:22.176-04:00 [STG] [OUT] log : Installing System.Reflection.Primitives 4.0.1-rc2-24027.
+2016-06-30T17:31:22.180-04:00 [STG] [OUT] log : Installing System.Reflection.TypeExtensions 4.1.0-rc2-24027.
+2016-06-30T17:31:22.183-04:00 [STG] [OUT] log : Installing System.Runtime.InteropServices.RuntimeInformation 4.0.0-rc2-24027.
+2016-06-30T17:31:22.192-04:00 [STG] [OUT] log : Installing System.Text.Encoding.Extensions 4.0.11-rc2-24027.
+2016-06-30T17:31:22.193-04:00 [STG] [OUT] log : Installing System.Threading.Timer 4.0.1-rc2-24027.
+2016-06-30T17:31:22.208-04:00 [STG] [OUT] log : Installing System.Linq.Expressions 4.0.11-rc2-24027.
+2016-06-30T17:31:22.213-04:00 [STG] [OUT] log : Installing System.Xml.XmlDocument 4.0.1-rc2-24027.
+2016-06-30T17:31:22.216-04:00 [STG] [OUT] log : Installing System.Net.WebSockets 4.0.0-rc2-24027.
+2016-06-30T17:31:22.234-04:00 [STG] [OUT] log : Installing System.Xml.XmlSerializer 4.0.11-rc2-24027.
+2016-06-30T17:31:22.235-04:00 [STG] [OUT] log : Installing System.Collections.Specialized 4.0.1-rc2-24027.
+2016-06-30T17:31:22.242-04:00 [STG] [OUT] log : Installing System.IO.Compression 4.1.0-rc2-24027.
+2016-06-30T17:31:22.258-04:00 [STG] [OUT] log : Installing System.Net.Http 4.0.1-rc2-24027.
+2016-06-30T17:31:22.287-04:00 [STG] [OUT] log : Installing System.Net.WebSockets.Client 4.0.0-rc2-24027.
+2016-06-30T17:31:22.291-04:00 [STG] [OUT] log : Installing System.Net.Http.WinHttpHandler 4.0.0-rc2-24027.
+2016-06-30T17:31:22.306-04:00 [STG] [OUT] log : Installing Libuv 1.9.0-rc2-20896.
+2016-06-30T17:31:22.307-04:00 [STG] [OUT] log : Installing System.Buffers 4.0.0-rc2-24027.
+2016-06-30T17:31:22.312-04:00 [STG] [OUT] log : Installing System.Threading.Thread 4.0.0-rc2-24027.
+2016-06-30T17:31:22.318-04:00 [STG] [OUT] log : Installing System.Threading.Tasks.Extensions 4.0.0-rc2-24027.
+2016-06-30T17:31:22.320-04:00 [STG] [OUT] log : Installing System.Numerics.Vectors 4.1.1-rc2-24027.
+2016-06-30T17:31:22.323-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Logging.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.328-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.PlatformAbstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.330-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Hosting 1.0.0-rc2-final.
+2016-06-30T17:31:22.334-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.DependencyInjection.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.336-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration 1.0.0-rc2-final.
+2016-06-30T17:31:22.339-04:00 [STG] [OUT] log : Installing Newtonsoft.Json 8.0.3.
+2016-06-30T17:31:22.339-04:00 [STG] [OUT] log : Installing System.IO.FileSystem 4.0.1-rc2-24027.
+2016-06-30T17:31:22.341-04:00 [STG] [OUT] log : Installing System.Dynamic.Runtime 4.0.11-rc2-24027.
+2016-06-30T17:31:22.344-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.FileExtensions 1.0.0-rc2-final.
+2016-06-30T17:31:22.348-04:00 [STG] [OUT] log : Installing System.Console 4.0.0-rc2-24027.
+2016-06-30T17:31:22.365-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Configuration.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.368-04:00 [STG] [OUT] log : Installing System.Runtime.Loader 4.0.0-rc2-24027.
+2016-06-30T17:31:22.368-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Platforms 1.0.1-rc2-24027.
+2016-06-30T17:31:22.371-04:00 [STG] [OUT] log : Installing Microsoft.Win32.Registry 4.0.0-rc2-24027.
+2016-06-30T17:31:22.378-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.FileProviders.Physical 1.0.0-rc2-final.
+2016-06-30T17:31:22.384-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Http.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.389-04:00 [STG] [OUT] log : Installing System.Diagnostics.DiagnosticSource 4.0.0-rc2-24027.
+2016-06-30T17:31:22.391-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Diagnostics.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.394-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Options 1.0.0-rc2-final.
+2016-06-30T17:31:22.394-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.WebUtilities 1.0.0-rc2-final.
+2016-06-30T17:31:22.397-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Http.Extensions 1.0.0-rc2-final.
+2016-06-30T17:31:22.398-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Hosting.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.399-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.FileProviders.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.400-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.WebEncoders 1.0.0-rc2-final.
+2016-06-30T17:31:22.402-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.HttpOverrides 1.0.0-rc2-final.
+2016-06-30T17:31:22.403-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Authentication 1.0.0-rc2-final.
+2016-06-30T17:31:22.403-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Http 1.0.0-rc2-final.
+2016-06-30T17:31:22.404-04:00 [STG] [OUT] log : Installing System.Diagnostics.Process 4.1.0-rc2-24027.
+2016-06-30T17:31:22.408-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.CommandLineUtils 1.0.0-rc2-final.
+2016-06-30T17:31:22.411-04:00 [STG] [OUT] log : Installing Microsoft.DotNet.Cli.Utils 1.0.0-preview1-002702.
+2016-06-30T17:31:22.411-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Razor.Runtime 1.0.0-rc2-final.
+2016-06-30T17:31:22.414-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.Relational 1.0.0-rc2-final.
+2016-06-30T17:31:22.418-04:00 [STG] [OUT] log : Installing System.ComponentModel.TypeConverter 4.0.1-rc2-24027.
+2016-06-30T17:31:22.421-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Identity 1.0.0-rc2-final.
+2016-06-30T17:31:22.432-04:00 [STG] [OUT] log : Installing System.Data.SqlClient 4.1.0-rc2-24027.
+2016-06-30T17:31:22.436-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.Tools.Cli 1.0.0-preview1-final.
+2016-06-30T17:31:22.440-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.Tools.Core 1.0.0-rc2-final.
+2016-06-30T17:31:22.442-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.DotNetHostPolicy 1.0.1-rc2-002702-00.
+2016-06-30T17:31:22.444-04:00 [STG] [OUT] log : Installing System.ComponentModel 4.0.1-rc2-24027.
+2016-06-30T17:31:22.445-04:00 [STG] [OUT] log : Installing System.Collections.Immutable 1.2.0-rc2-24027.
+2016-06-30T17:31:22.455-04:00 [STG] [OUT] log : Installing NETStandard.Library 1.5.0-rc2-24027.
+2016-06-30T17:31:22.458-04:00 [STG] [OUT] log : Installing System.Threading.Tasks.Parallel 4.0.1-rc2-24027.
+2016-06-30T17:31:22.464-04:00 [STG] [OUT] log : Installing System.IO.FileSystem.Watcher 4.0.0-rc2-24027.
+2016-06-30T17:31:22.468-04:00 [STG] [OUT] log : Installing Microsoft.VisualBasic 10.0.1-rc2-24027.
+2016-06-30T17:31:22.486-04:00 [STG] [OUT] log : Installing System.IO.UnmanagedMemoryStream 4.0.1-rc2-24027.
+2016-06-30T17:31:22.487-04:00 [STG] [OUT] log : Installing Microsoft.CSharp 4.0.1-rc2-24027.
+2016-06-30T17:31:22.499-04:00 [STG] [OUT] log : Installing System.Resources.Reader 4.0.0-rc2-24027.
+2016-06-30T17:31:22.503-04:00 [STG] [OUT] log : Installing System.IO.MemoryMappedFiles 4.0.0-rc2-24027.
+2016-06-30T17:31:22.503-04:00 [STG] [OUT] log : Installing System.ComponentModel.Annotations 4.1.0-rc2-24027.
+2016-06-30T17:31:22.524-04:00 [STG] [OUT] log : Installing System.Linq.Parallel 4.0.1-rc2-24027.
+2016-06-30T17:31:22.527-04:00 [STG] [OUT] log : Installing System.Net.Requests 4.0.11-rc2-24027.
+2016-06-30T17:31:22.558-04:00 [STG] [OUT] log : Installing System.Threading.Tasks.Dataflow 4.6.0-rc2-24027.
+2016-06-30T17:31:22.561-04:00 [STG] [OUT] log : Installing System.Reflection.Metadata 1.3.0-rc2-24027.
+2016-06-30T17:31:22.572-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.VisualBasic 1.3.0-beta1-20160429-01.
+2016-06-30T17:31:22.574-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.CSharp 1.3.0-beta1-20160429-01.
+2016-06-30T17:31:22.575-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.TagHelpers 1.0.0-rc2-final.
+2016-06-30T17:31:22.578-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Caching.Memory 1.0.0-rc2-final.
+2016-06-30T17:31:22.584-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Localization 1.0.0-rc2-final.
+2016-06-30T17:31:22.584-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.DependencyInjection 1.0.0-rc2-final.
+2016-06-30T17:31:22.590-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.ApiExplorer 1.0.0-rc2-final.
+2016-06-30T17:31:22.590-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.DataAnnotations 1.0.0-rc2-final.
+2016-06-30T17:31:22.596-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Cors 1.0.0-rc2-final.
+2016-06-30T17:31:22.596-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Formatters.Json 1.0.0-rc2-final.
+2016-06-30T17:31:22.601-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Razor 1.0.0-rc2-final.
+2016-06-30T17:31:22.601-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.ViewFeatures 1.0.0-rc2-final.
+2016-06-30T17:31:22.610-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration 1.0.0-preview1-final.
+2016-06-30T17:31:22.613-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Platforms 1.0.1.
+2016-06-30T17:31:22.616-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Targets 1.0.1.
+2016-06-30T17:31:22.617-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Primitives 4.0.0.
+2016-06-30T17:31:22.619-04:00 [STG] [OUT] log : Installing System.IO 4.1.0.
+2016-06-30T17:31:22.627-04:00 [STG] [OUT] log : Installing runtime.native.System.Security.Cryptography 4.0.0.
+2016-06-30T17:31:22.630-04:00 [STG] [OUT] log : Installing System.Text.Encoding 4.0.11.
+2016-06-30T17:31:22.668-04:00 [STG] [OUT] log : Installing System.Linq 4.1.0.
+2016-06-30T17:31:22.681-04:00 [STG] [OUT] log : Installing System.Collections 4.0.11.
+2016-06-30T17:31:22.718-04:00 [STG] [OUT] log : Installing System.Runtime.Extensions 4.1.0.
+2016-06-30T17:31:22.748-04:00 [STG] [OUT] log : Installing System.Collections.Concurrent 4.0.12.
+2016-06-30T17:31:22.783-04:00 [STG] [OUT] log : Installing System.Resources.ResourceManager 4.0.1.
+2016-06-30T17:31:22.795-04:00 [STG] [OUT] log : Installing System.Runtime.InteropServices 4.1.0.
+2016-06-30T17:31:22.805-04:00 [STG] [OUT] log : Installing System.Runtime.InteropServices.PInvoke 4.0.0-rc2-24027.
+2016-06-30T17:31:22.810-04:00 [STG] [OUT] log : Installing runtime.native.System.Security.Cryptography 4.0.0-rc2-24027.
+2016-06-30T17:31:22.813-04:00 [STG] [OUT] log : Installing System.Runtime.Numerics 4.0.1-rc2-24027.
+2016-06-30T17:31:22.818-04:00 [STG] [OUT] log : Installing System.Reflection.Emit.ILGeneration 4.0.1-rc2-24027.
+2016-06-30T17:31:22.828-04:00 [STG] [OUT] log : Installing System.Text.RegularExpressions 4.0.12-rc2-24027.
+2016-06-30T17:31:22.833-04:00 [STG] [OUT] log : Installing System.Reflection.Emit.Lightweight 4.0.1-rc2-24027.
+2016-06-30T17:31:22.848-04:00 [STG] [OUT] log : Installing System.IO.FileSystem.Primitives 4.0.1-rc2-24027.
+2016-06-30T17:31:22.850-04:00 [STG] [OUT] log : Installing System.Reflection.Emit 4.0.1-rc2-24027.
+2016-06-30T17:31:22.865-04:00 [STG] [OUT] log : Installing runtime.native.System.IO.Compression 4.1.0-rc2-24027.
+2016-06-30T17:31:22.869-04:00 [STG] [OUT] log : Installing runtime.native.System 4.0.0-rc2-24027.
+2016-06-30T17:31:22.871-04:00 [STG] [OUT] log : Installing runtime.native.System.Net.Http 4.0.1-rc2-24027.
+2016-06-30T17:31:22.874-04:00 [STG] [OUT] log : Installing System.Diagnostics.StackTrace 4.0.1-rc2-24027.
+2016-06-30T17:31:22.874-04:00 [STG] [OUT] log : Installing System.AppContext 4.1.0-rc2-24027.
+2016-06-30T17:31:22.875-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Hosting.Server.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.880-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Primitives 1.0.0-rc2-final.
+2016-06-30T17:31:22.886-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Targets 1.0.1-rc2-24027.
+2016-06-30T17:31:22.889-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.FileSystemGlobbing 1.0.0-rc2-final.
+2016-06-30T17:31:22.893-04:00 [STG] [OUT] log : Installing System.Text.Encodings.Web 4.0.0-rc2-24027.
+2016-06-30T17:31:22.894-04:00 [STG] [OUT] log : Installing Microsoft.Net.Http.Headers 1.0.0-rc2-final.
+2016-06-30T17:31:22.894-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Http.Features 1.0.0-rc2-final.
+2016-06-30T17:31:22.899-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.ObjectPool 1.0.0-rc2-final.
+2016-06-30T17:31:22.900-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.DataProtection 1.0.0-rc2-final.
+2016-06-30T17:31:22.900-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Html.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:22.904-04:00 [STG] [OUT] log : Installing System.Xml.XDocument 4.0.11-rc2-24027.
+2016-06-30T17:31:22.904-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Razor 1.0.0-rc2-final.
+2016-06-30T17:31:22.910-04:00 [STG] [OUT] log : Installing NuGet.Frameworks 3.5.0-beta-final.
+2016-06-30T17:31:22.916-04:00 [STG] [OUT] log : Installing NuGet.Versioning 3.5.0-beta-final.
+2016-06-30T17:31:22.918-04:00 [STG] [OUT] log : Installing NuGet.Packaging 3.5.0-beta-final.
+2016-06-30T17:31:22.922-04:00 [STG] [OUT] log : Installing Microsoft.DotNet.ProjectModel 1.0.0-rc2-002702.
+2016-06-30T17:31:22.962-04:00 [STG] [OUT] log : Installing NuGet.ProjectModel 3.5.0-beta-final.
+2016-06-30T17:31:22.965-04:00 [STG] [OUT] log : Installing System.Data.Common 4.0.1-rc2-24027.
+2016-06-30T17:31:22.988-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore 1.0.0-rc2-final.
+2016-06-30T17:31:23.000-04:00 [STG] [OUT] log : Installing System.ComponentModel.Primitives 4.0.1-rc2-24027.
+2016-06-30T17:31:23.015-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Cryptography.KeyDerivation 1.0.0-rc2-final.
+2016-06-30T17:31:23.020-04:00 [STG] [OUT] log : Installing System.IO.Pipes 4.0.0-rc2-24027.
+2016-06-30T17:31:23.023-04:00 [STG] [OUT] log : Installing System.Text.Encoding.CodePages 4.0.1-rc2-24027.
+2016-06-30T17:31:23.030-04:00 [STG] [OUT] log : Installing runtime.native.System.Data.SqlClient.sni 4.0.0-rc2-24027.
+2016-06-30T17:31:23.033-04:00 [STG] [OUT] log : Installing Microsoft.EntityFrameworkCore.Relational.Design 1.0.0-rc2-final.
+2016-06-30T17:31:23.037-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.DotNetHostResolver 1.0.1-rc2-002702-00.
+2016-06-30T17:31:23.052-04:00 [STG] [OUT] log : Installing System.IO.Compression.ZipFile 4.0.1-rc2-24027.
+2016-06-30T17:31:23.055-04:00 [STG] [OUT] log : Installing System.Globalization.Calendars 4.0.1-rc2-24027.
+2016-06-30T17:31:23.063-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Runtime 1.0.2-rc2-24027.
+2016-06-30T17:31:23.071-04:00 [STG] [OUT] log : Installing System.Threading.Overlapped 4.0.1-rc2-24027.
+2016-06-30T17:31:23.077-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.Common 1.3.0-beta1-20160429-01.
+2016-06-30T17:31:23.088-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Caching.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:23.095-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Localization 1.0.0-rc2-final.
+2016-06-30T17:31:23.097-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Localization 1.0.0-rc2-final.
+2016-06-30T17:31:23.106-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Core 1.0.0-rc2-final.
+2016-06-30T17:31:23.108-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.JsonPatch 1.0.0-rc2-final.
+2016-06-30T17:31:23.112-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Antiforgery 1.0.0-rc2-final.
+2016-06-30T17:31:23.113-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Cors 1.0.0-rc2-final.
+2016-06-30T17:31:23.118-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.FileProviders.Composite 1.0.0-rc2-final.
+2016-06-30T17:31:23.124-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Mvc.Razor.Host 1.0.0-rc2-final.
+2016-06-30T17:31:23.128-04:00 [STG] [OUT] log : Installing Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore 1.0.0-preview1-final.
+2016-06-30T17:31:23.129-04:00 [STG] [OUT] log : Installing System.Diagnostics.Debug 4.0.11.
+2016-06-30T17:31:23.138-04:00 [STG] [OUT] log : Installing System.Globalization 4.0.11.
+2016-06-30T17:31:23.146-04:00 [STG] [OUT] log : Installing System.Threading 4.0.11.
+2016-06-30T17:31:23.163-04:00 [STG] [OUT] log : Installing System.Threading.Tasks 4.0.11.
+2016-06-30T17:31:23.211-04:00 [STG] [OUT] log : Installing System.Diagnostics.Tracing 4.1.0.
+2016-06-30T17:31:23.221-04:00 [STG] [OUT] log : Installing System.Reflection 4.1.0.
+2016-06-30T17:31:23.262-04:00 [STG] [OUT] log : Installing System.Reflection.Primitives 4.0.1.
+2016-06-30T17:31:23.296-04:00 [STG] [OUT] log : Installing System.Diagnostics.Contracts 4.0.1-rc2-24027.
+2016-06-30T17:31:23.314-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.DataProtection.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:23.337-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Cryptography.Internal 1.0.0-rc2-final.
+2016-06-30T17:31:23.347-04:00 [STG] [OUT] log : Installing NuGet.Packaging.Core 3.5.0-beta-final.
+2016-06-30T17:31:23.349-04:00 [STG] [OUT] log : Installing NuGet.Common 3.5.0-beta-final.
+2016-06-30T17:31:23.360-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.DependencyModel 1.0.0-rc2-002702.
+2016-06-30T17:31:23.360-04:00 [STG] [OUT] log : Installing NuGet.RuntimeModel 3.5.0-beta-final.
+2016-06-30T17:31:23.365-04:00 [STG] [OUT] log : Installing NuGet.DependencyResolver.Core 3.5.0-beta-final.
+2016-06-30T17:31:23.376-04:00 [STG] [OUT] log : Installing Remotion.Linq 2.0.2.
+2016-06-30T17:31:23.378-04:00 [STG] [OUT] log : Installing Ix-Async 1.2.5.
+2016-06-30T17:31:23.387-04:00 [STG] [OUT] log : Installing runtime.win7-x64.runtime.native.System.Data.SqlClient.sni 4.0.1-rc2-24027.
+2016-06-30T17:31:23.391-04:00 [STG] [OUT] log : Installing runtime.win7-x86.runtime.native.System.Data.SqlClient.sni 4.0.1-rc2-24027.
+2016-06-30T17:31:23.412-04:00 [STG] [OUT] log : Installing Newtonsoft.Json 7.0.1.
+2016-06-30T17:31:23.426-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.DotNetHost 1.0.1-rc2-002702-00.
+2016-06-30T17:31:23.433-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Runtime.Native 1.0.2-rc2-24027.
+2016-06-30T17:31:23.434-04:00 [STG] [OUT] log : Installing Microsoft.NETCore.Runtime.CoreCLR 1.0.2-rc2-24027.
+2016-06-30T17:31:23.442-04:00 [STG] [OUT] log : Installing System.Diagnostics.FileVersionInfo 4.0.0-rc2-24027.
+2016-06-30T17:31:23.443-04:00 [STG] [OUT] log : Installing System.Xml.XPath.XDocument 4.0.1-rc2-24027.
+2016-06-30T17:31:23.444-04:00 [STG] [OUT] log : Installing Microsoft.CodeAnalysis.Analyzers 1.1.0.
+2016-06-30T17:31:23.479-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Localization.Abstractions 1.0.0-rc2-final.
+2016-06-30T17:31:23.484-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.Globalization.CultureInfoCache 1.0.0-rc2-final.
+2016-06-30T17:31:23.486-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Authorization 1.0.0-rc2-final.
+2016-06-30T17:31:23.489-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.DependencyModel 1.0.0-rc2-final.
+2016-06-30T17:31:23.495-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Routing 1.0.0-rc2-final.
+2016-06-30T17:31:23.900-04:00 [STG] [OUT] log : Restoring packages for tool 'Microsoft.AspNetCore.Razor.Tools' in /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:24.334-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Csp 4.0.0-rc2-24027.
+2016-06-30T17:31:24.335-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.Cng 4.1.0-rc2-24027.
+2016-06-30T17:31:24.336-04:00 [STG] [OUT] log : Installing System.Security.Cryptography.X509Certificates 4.1.0-rc2-24027.
+2016-06-30T17:31:24.911-04:00 [STG] [OUT] log : Restoring packages for tool 'Microsoft.AspNetCore.Server.IISIntegration.Tools' in /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:25.143-04:00 [STG] [OUT] log : Installing Microsoft.AspNetCore.Server.IISIntegration.Tools 1.0.0-preview1-final.
+2016-06-30T17:31:25.449-04:00 [STG] [OUT] log : Restoring packages for tool 'Microsoft.EntityFrameworkCore.Tools' in /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:25.907-04:00 [STG] [OUT] log : Restoring packages for tool 'Microsoft.Extensions.SecretManager.Tools' in /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:26.196-04:00 [STG] [OUT] log : Installing Microsoft.Extensions.SecretManager.Tools 1.0.0-preview1-final.
+2016-06-30T17:31:26.496-04:00 [STG] [OUT] log : Restoring packages for tool 'Microsoft.VisualStudio.Web.CodeGeneration.Tools' in /tmp/app/src/WebApplication6/project.json...
+2016-06-30T17:31:27.692-04:00 [STG] [OUT] log : Writing lock file to disk. Path: /tmp/app/src/WebApplication6/project.lock.json
+2016-06-30T17:31:27.832-04:00 [STG] [OUT] log : Restore completed in 9726ms.
+2016-06-30T17:31:27.832-04:00 [STG] [OUT] log : src/WebApplication6/project.json
+2016-06-30T17:31:27.875-04:00 [STG] [OUT] -----> Saving to buildpack cache
+2016-06-30T17:31:27.875-04:00 [STG] [OUT] OK
+2016-06-30T17:31:27.975-04:00 [STG] [OUT] Copied 199 files from /tmp/app/.dotnet to /tmp/cache
+2016-06-30T17:31:31.436-04:00 [STG] [OUT] Copied 13396 files from /tmp/app/.nuget to /tmp/cache
+2016-06-30T17:31:31.867-04:00 [STG] [OUT] Copied 37 files from /tmp/app/libunwind to /tmp/cache
+2016-06-30T17:31:31.868-04:00 [STG] [OUT] ASP.NET Core buildpack is done creating the droplet
+2016-06-30T17:31:31.868-04:00 [STG] [OUT] OK
+2016-06-30T17:32:33.718-04:00 [STG] [OUT] Staging complete
+2016-06-30T17:32:33.718-04:00 [STG] [OUT] Uploading droplet, build artifacts cache...
+2016-06-30T17:32:33.718-04:00 [STG] [OUT] Exit status 0
+2016-06-30T17:32:33.718-04:00 [STG] [OUT] Uploading droplet...
+2016-06-30T17:32:33.718-04:00 [STG] [OUT] Uploading build artifacts cache...
+2016-06-30T17:32:44.026-04:00 [STG] [OUT] Uploaded build artifacts cache (223.7M)
+2016-06-30T17:33:03.644-04:00 [STG] [OUT] Uploaded droplet (319.7M)
+2016-06-30T17:33:03.839-04:00 [STG] [OUT] Uploading complete
+2016-06-30T17:33:04.369-04:00 [CELL] [OUT] Creating container
+2016-06-30T17:33:05.093-04:00 [CELL] [OUT] Successfully created container
+2016-06-30T17:33:21.968-04:00 [API] [OUT] App instance exited with guid 36e355b3-a6fe-4d69-9403-95865da5c54d payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Copying into the container failed", "crash_count"=>1, "crash_timestamp"=>1467322401944550032, "version"=>"034460f5-ffa6-4d06-8c2c-cefa6dc080c5"}
+2016-06-30T17:33:22.248-04:00 [CELL] [OUT] Creating container
+2016-06-30T17:33:23.454-04:00 [CELL] [OUT] Successfully created container
