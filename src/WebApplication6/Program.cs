@@ -19,7 +19,6 @@ namespace WebApplication6
             var host = new WebHostBuilder()
                 .UseConfiguration(config)
                 .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
