@@ -1,0 +1,32 @@
+log  : Restoring packages for C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethostresolver/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethostresolver/index.json 64ms
+info :   GET https://myget-2e16.kxcdn.com/artifacts/aspnetvnext/nuget/v3/flatcontainer/microsoft.netcore.dotnethostresolver/index.json
+info :   OK https://myget-2e16.kxcdn.com/artifacts/aspnetvnext/nuget/v3/flatcontainer/microsoft.netcore.dotnethostresolver/index.json 660ms
+info :   GET https://myget-2e16.kxcdn.com/artifacts/aspnet-contrib/nuget/v3/flatcontainer/microsoft.netcore.dotnethostresolver/index.json
+info :   NotFound https://myget-2e16.kxcdn.com/artifacts/aspnet-contrib/nuget/v3/flatcontainer/microsoft.netcore.dotnethostresolver/index.json 500ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethost/index.json
+info :   GET https://myget-2e16.kxcdn.com/artifacts/aspnetvnext/nuget/v3/flatcontainer/microsoft.netcore.dotnethost/index.json
+info :   GET https://myget-2e16.kxcdn.com/artifacts/aspnet-contrib/nuget/v3/flatcontainer/microsoft.netcore.dotnethost/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.netcore.dotnethost/index.json 99ms
+info :   OK https://myget-2e16.kxcdn.com/artifacts/aspnetvnext/nuget/v3/flatcontainer/microsoft.netcore.dotnethost/index.json 350ms
+info :   NotFound https://myget-2e16.kxcdn.com/artifacts/aspnet-contrib/nuget/v3/flatcontainer/microsoft.netcore.dotnethost/index.json 384ms
+log  : Restoring packages for tool 'Microsoft.AspNetCore.Razor.Tools' in C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+log  : Restoring packages for tool 'Microsoft.AspNetCore.Server.IISIntegration.Tools' in C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+log  : Restoring packages for tool 'Microsoft.EntityFrameworkCore.Tools' in C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+log  : Restoring packages for tool 'Microsoft.Extensions.SecretManager.Tools' in C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+log  : Restoring packages for tool 'Microsoft.VisualStudio.Web.CodeGeneration.Tools' in C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json...
+info : Committing restore...
+log  : Lock file has not changed. Skipping lock file write. Path: C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.lock.json
+log  : C:\Walter\MyCode\Code\ASPNET\WebApplication6\src\WebApplication6\project.json
+log  : Restore completed in 7207ms.
+
+NuGet Config files used:
+    C:\Users\843686262\AppData\Roaming\NuGet\NuGet.Config
+    C:\ProgramData\nuget\Config\Microsoft.VisualStudio.Offline.config
+
+Feeds used:
+    https://api.nuget.org/v3/index.json
+    https://www.myget.org/F/aspnetvnext/api/v3/index.json
+    https://www.myget.org/F/aspnet-contrib/api/v3/index.json
+    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
