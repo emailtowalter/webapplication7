@@ -93,7 +93,10 @@
   },
   "buildOptions": {
     "emitEntryPoint": true,
-    "preserveCompilationContext": true
+    "preserveCompilationContext": true,
+    "copyToOutput": {
+      "include": [ "wwwroot", "web.config", "appsettings.json", "Views" ]
+    }
   },
   "runtimeOptions": {
     "gcServer": true
