@@ -2,7 +2,7 @@
 - path: .
   memory: 1G
   instances: 1
-  domain: bm.devfg.rbc.com
+  domain:
   name: Ninja6
   host: Ninja6
   disk_quota: 1024M
